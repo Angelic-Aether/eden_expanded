@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "eden_expanded",
+	"version": "${version}",
+	"name": "Eden Expanded",
+	"description": "An expansion mod for the Eden Ring, adding several of the gas giant's moons and tons of unique content.",
+	"authors": [
+		"Angelic Aether"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/eden_expanded/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.angelicaether.eden_expanded.EdenExpanded"
+		],
+		"client": [
+			"net.angelicaether.eden_expanded.EdenExpandedClient"
+		],
+		"fabric-datagen": [
+			"net.angelicaether.eden_expanded.EdenExpandedDataGenerator"
+		]
+	},
+	"mixins": [
+		"eden_expanded.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
