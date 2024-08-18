@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "eden_expanded:raw_eden_mussel"
+  },
+  "result": "eden_expanded:cooked_eden_mussel"
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_pressed",
+  "textures": {
+    "texture": "eden_expanded:block/rockwood_planks"
+  }
+}

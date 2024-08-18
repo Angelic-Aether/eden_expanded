@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "eden_expanded:rhyolite_bricks"
+  },
+  "result": "eden_expanded:rhyolite_brick_stairs"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "eden_expanded:cobbled_rhyolite"
+  },
+  "result": "eden_expanded:rhyolite_brick_slab"
+}

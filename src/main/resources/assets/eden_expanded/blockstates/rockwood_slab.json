@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "eden_expanded:block/rockwood_slab"
+    },
+    "type=double": {
+      "model": "eden_expanded:block/rockwood_planks"
+    },
+    "type=top": {
+      "model": "eden_expanded:block/rockwood_slab_top"
+    }
+  }
+}

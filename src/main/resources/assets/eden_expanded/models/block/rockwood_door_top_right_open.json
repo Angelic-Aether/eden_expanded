@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_right_open",
+  "textures": {
+    "bottom": "eden_expanded:block/rockwood_door_bottom",
+    "top": "eden_expanded:block/rockwood_door_top"
+  }
+}

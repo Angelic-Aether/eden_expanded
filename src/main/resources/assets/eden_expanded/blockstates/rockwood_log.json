@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "eden_expanded:block/rockwood_log_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "eden_expanded:block/rockwood_log"
+    },
+    "axis=z": {
+      "model": "eden_expanded:block/rockwood_log_horizontal",
+      "x": 90
+    }
+  }
+}

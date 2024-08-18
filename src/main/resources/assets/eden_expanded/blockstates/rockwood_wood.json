@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "eden_expanded:block/rockwood_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "eden_expanded:block/rockwood_wood"
+    },
+    "axis=z": {
+      "model": "eden_expanded:block/rockwood_wood",
+      "x": 90
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "eden_expanded:cobbled_rhyolite_stairs",
+    "eden_expanded:polished_rhyolite_stairs",
+    "eden_expanded:rhyolite_brick_stairs",
+    "eden_expanded:rockwood_stairs"
+  ]
+}

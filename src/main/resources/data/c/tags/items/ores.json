@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "eden_expanded:rhyolite_coal_ore",
+    "eden_expanded:rhyolite_copper_ore",
+    "eden_expanded:rhyolite_diamond_ore",
+    "eden_expanded:rhyolite_emerald_ore",
+    "eden_expanded:rhyolite_gold_ore",
+    "eden_expanded:rhyolite_iron_ore",
+    "eden_expanded:rhyolite_lapis_ore",
+    "eden_expanded:rhyolite_redstone_ore"
+  ]
+}

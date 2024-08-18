@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "eden_expanded:rhyolite_iron_ore",
+    "eden_expanded:rhyolite_lapis_ore",
+    "eden_expanded:rhyolite_copper_ore"
+  ]
+}

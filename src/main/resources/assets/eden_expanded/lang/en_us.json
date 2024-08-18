@@ -1,0 +1,61 @@
+{
+  "item.eden_expanded.eden_mussel": "Eden Mussel",
+  "item.eden_expanded.raw_eden_mussel": "Raw Eden Mussel",
+  "item.eden_expanded.cooked_eden_mussel": "Cooked Eden Mussel",
+  "item.eden_expanded.rockmite": "Rockmite",
+  "item.eden_expanded.cooked_rockmite": "Cooked Rockmite",
+
+  "block.eden_expanded.gritsoil": "Gritsoil",
+  "block.eden_expanded.gritsoil_grass_block": "Gritsoil Grass Block",
+  "block.eden_expanded.rhyolite": "Rhyolite",
+
+  "block.eden_expanded.cobbled_rhyolite": "Cobbled Rhyolite",
+  "block.eden_expanded.cobbled_rhyolite_stairs": "Cobbled Rhyolite Stairs",
+  "block.eden_expanded.cobbled_rhyolite_slab": "Cobbled Rhyolite Slab",
+  "block.eden_expanded.cobbled_rhyolite_wall": "Cobbled Rhyolite Wall",
+
+  "block.eden_expanded.chiseled_rhyolite": "Chiseled Rhyolite",
+
+  "block.eden_expanded.polished_rhyolite": "Polished Rhyolite",
+  "block.eden_expanded.polished_rhyolite_stairs": "Polished Rhyolite Stairs",
+  "block.eden_expanded.polished_rhyolite_slab": "Polished Rhyolite Slab",
+  "block.eden_expanded.polished_rhyolite_wall": "Polished Rhyolite Wall",
+
+  "block.eden_expanded.rhyolite_bricks": "Rhyolite Bricks",
+  "block.eden_expanded.cracked_rhyolite_bricks": "Cracked Rhyolite Bricks",
+  "block.eden_expanded.rhyolite_brick_stairs": "Rhyolite Brick Stairs",
+  "block.eden_expanded.rhyolite_brick_slab": "Rhyolite Brick Slab",
+  "block.eden_expanded.rhyolite_brick_wall": "Rhyolite Brick Wall",
+
+  "block.eden_expanded.rhyolite_tiles": "Rhyolite Tiles",
+  "block.eden_expanded.cracked_rhyolite_tiles": "Cracked Rhyolite Tiles",
+  "block.eden_expanded.rhyolite_tile_stairs": "Rhyolite Tile Stairs",
+  "block.eden_expanded.rhyolite_tile_slab": "Rhyolite Tile Slab",
+  "block.eden_expanded.rhyolite_tile_wall": "Rhyolite Tile Wall",
+
+  "block.eden_expanded.rhyolite_coal_ore": "Rhyolite Coal Ore",
+  "block.eden_expanded.rhyolite_copper_ore": "Rhyolite Copper Ore",
+  "block.eden_expanded.rhyolite_diamond_ore": "Rhyolite Diamond Ore",
+  "block.eden_expanded.rhyolite_emerald_ore": "Rhyolite Emerald Ore",
+  "block.eden_expanded.rhyolite_gold_ore": "Rhyolite Gold Ore",
+  "block.eden_expanded.rhyolite_iron_ore": "Rhyolite Iron Ore",
+  "block.eden_expanded.rhyolite_lapis_ore": "Rhyolite Lapis Ore",
+  "block.eden_expanded.rhyolite_redstone_ore": "Rhyolite Redstone Ore",
+
+  "block.eden_expanded.rockwood_log": "Rockwood Log",
+  "block.eden_expanded.rockwood_wood": "Rockwood Wood",
+  "block.eden_expanded.stripped_rockwood_log": "Stripped Rockwood Log",
+  "block.eden_expanded.stripped_rockwood_wood": "Stripped Rockwood Wood",
+  "block.eden_expanded.rockwood_planks": "Rockwood Planks",
+  "block.eden_expanded.rockwood_stairs": "Rockwood Stairs",
+  "block.eden_expanded.rockwood_slab": "Rockwood Slab",
+  "block.eden_expanded.rockwood_fence": "Rockwood Fence",
+  "block.eden_expanded.rockwood_fence_gate": "Rockwood Fence Gate",
+  "block.eden_expanded.rockwood_door": "Rockwood Door",
+  "block.eden_expanded.rockwood_trapdoor": "Rockwood Trapdoor",
+  "block.eden_expanded.rockwood_pressure_plate": "Rockwood Pressure Plate",
+  "block.eden_expanded.rockwood_button": "Rockwood Button",
+  "block.eden_expanded.rockwood_leaves": "Rockwood Leaves",
+
+  "itemgroup.eden_alpha": "Eden Alpha"
+}

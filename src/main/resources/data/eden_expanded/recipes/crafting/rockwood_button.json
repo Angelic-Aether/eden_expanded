@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "wooden_button",
+  "ingredients": [
+    {
+      "item": "eden_expanded:rockwood_planks"
+    }
+  ],
+  "result": {
+    "item": "eden_expanded:rockwood_button"
+  }
+}

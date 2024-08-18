@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "eden_expanded:block/polished_rhyolite_slab"
+    },
+    "type=double": {
+      "model": "eden_expanded:block/polished_rhyolite"
+    },
+    "type=top": {
+      "model": "eden_expanded:block/polished_rhyolite_slab_top"
+    }
+  }
+}

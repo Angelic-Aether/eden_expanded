@@ -1,0 +1,26 @@
+{
+  "replace": false,
+  "values": [
+    "eden_expanded:rhyolite",
+    "eden_expanded:cobbled_rhyolite",
+    "eden_expanded:cobbled_rhyolite_stairs",
+    "eden_expanded:cobbled_rhyolite_slab",
+    "eden_expanded:cobbled_rhyolite_wall",
+    "eden_expanded:polished_rhyolite",
+    "eden_expanded:polished_rhyolite_stairs",
+    "eden_expanded:polished_rhyolite_slab",
+    "eden_expanded:polished_rhyolite_wall",
+    "eden_expanded:rhyolite_bricks",
+    "eden_expanded:rhyolite_brick_stairs",
+    "eden_expanded:rhyolite_brick_slab",
+    "eden_expanded:rhyolite_brick_wall",
+    "eden_expanded:rhyolite_coal_ore",
+    "eden_expanded:rhyolite_copper_ore",
+    "eden_expanded:rhyolite_diamond_ore",
+    "eden_expanded:rhyolite_emerald_ore",
+    "eden_expanded:rhyolite_gold_ore",
+    "eden_expanded:rhyolite_iron_ore",
+    "eden_expanded:rhyolite_lapis_ore",
+    "eden_expanded:rhyolite_redstone_ore"
+  ]
+}
