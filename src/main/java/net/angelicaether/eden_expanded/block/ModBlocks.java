@@ -1,7 +1,7 @@
 package net.angelicaether.eden_expanded.block;
 
 import net.angelicaether.eden_expanded.EdenExpanded;
-import net.angelicaether.eden_expanded.block.custom.GritsoilGrassBlock;
+import net.angelicaether.eden_expanded.block.custom.*;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
@@ -116,13 +116,28 @@ public class ModBlocks {
     public static final Block ROCKWOOD_LEAVES = registerBlock("rockwood_leaves",
             new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES)));
 
-    // Registers blocks as items
+    // Registers sign textures
+    public static final Identifier ROCKWOOD_SIGN_TEXTURE = new Identifier(EdenExpanded.MOD_ID, "entity/signs/rockwood");
+    public static final Identifier ROCKWOOD_HANGING_SIGN_TEXTURE = new Identifier(EdenExpanded.MOD_ID, "entity/signs/hanging/rockwood");
+    public static final Identifier ROCKWOOD_HANGING_GUI_SIGN_TEXTURE = new Identifier(EdenExpanded.MOD_ID, "textures/gui/hanging_signs/rockwood");
+
+    public static final Block ROCKWOOD_SIGN = registerBlockWithoutItem("rockwood_sign",
+            new SignBlock(FabricBlockSettings.copyOf(Blocks.OAK_SIGN), WoodType.OAK));
+    public static final Block ROCKWOOD_WALL_SIGN = registerBlockWithoutItem("rockwood_wall_sign",
+            new WallSignBlock(FabricBlockSettings.copyOf(Blocks.OAK_WALL_SIGN), WoodType.OAK));
+
+    // Registers blocks without items
+    private static Block registerBlockWithoutItem(String name, Block block) {
+        return Registry.register(Registries.BLOCK, new Identifier(EdenExpanded.MOD_ID, name), block);
+    }
+
+    // Registers blocks
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(EdenExpanded.MOD_ID, name), block);
     }
 
-    // Registers blocks as items 2: Electric Boogaloo
+    // Registers blocks as items
     private static Item registerBlockItem(String name, Block block) {
         return Registry.register(Registries.ITEM, new Identifier(EdenExpanded.MOD_ID, name),
                 new BlockItem(block, new FabricItemSettings()));

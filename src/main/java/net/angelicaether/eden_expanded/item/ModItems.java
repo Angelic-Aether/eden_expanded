@@ -5,8 +5,7 @@ import net.angelicaether.eden_expanded.block.ModBlocks;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroups;
+import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -17,6 +16,13 @@ public class ModItems {
     public static final Item COOKED_EDEN_MUSSEL = registerItem("cooked_eden_mussel", new Item(new FabricItemSettings().food(ModFoodComponents.COOKED_EDEN_MUSSEL)));
     public static final Item ROCKMITE = registerItem("rockmite", new Item(new FabricItemSettings().food(ModFoodComponents.ROCKMITE)));
     public static final Item COOKED_ROCKMITE = registerItem("cooked_rockmite", new Item(new FabricItemSettings().food(ModFoodComponents.COOKED_ROCKMITE)));
+    public static final Item RAW_ROCKBEEF = registerItem("raw_rockbeef", new Item(new FabricItemSettings().food(ModFoodComponents.RAW_ROCKBEEF)));
+    public static final Item COOKED_ROCKBEEF = registerItem("cooked_rockbeef", new Item(new FabricItemSettings().food(ModFoodComponents.COOKED_ROCKBEEF)));
+
+    public static final Item ROCKWOOD_SIGN = registerItem("rockwood_sign", new SignItem(new Item.Settings().maxCount(16), ModBlocks.ROCKWOOD_SIGN, ModBlocks.ROCKWOOD_WALL_SIGN));
+
+    public static final Item TROGLORAPTOR_CLAW = registerItem("trogloraptor_claw", new SwordItem(ModToolMaterial.TROGLORAPTOR, 1, -2.0f, new FabricItemSettings()));
+    public static final Item TROGLORAPTOR_SPEAR = registerItem("trogloraptor_spear", new SwordItem(ModToolMaterial.TROGLORAPTOR, 6, -3.0f, new FabricItemSettings()));
 
     // Adds food items to the Food and Drink tab
     private static void addItemsToFoodAndDrinkItemGroup(FabricItemGroupEntries entries) {
@@ -28,6 +34,10 @@ public class ModItems {
         // Adds rockmite items to the Food and Drink tab
         entries.add(ROCKMITE);
         entries.add(COOKED_ROCKMITE);
+
+        // Adds rockbeef items to the Food and Drink tab
+        entries.add(RAW_ROCKBEEF);
+        entries.add(COOKED_ROCKBEEF);
     }
 
     // Adds blocks to the Building Blocks Tab

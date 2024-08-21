@@ -80,6 +80,12 @@ public class ModItemGroups {
                         entries.add(ModItems.COOKED_EDEN_MUSSEL);
                         entries.add(ModItems.ROCKMITE);
                         entries.add(ModItems.COOKED_ROCKMITE);
+                        entries.add(ModItems.RAW_ROCKBEEF);
+                        entries.add(ModItems.COOKED_ROCKBEEF);
+
+                        // Adds weapons to the Eden Alpha tab
+                        entries.add(ModItems.TROGLORAPTOR_CLAW);
+                        entries.add(ModItems.TROGLORAPTOR_SPEAR);
                     }).build());
 
     public static void registerItemGroups() {
