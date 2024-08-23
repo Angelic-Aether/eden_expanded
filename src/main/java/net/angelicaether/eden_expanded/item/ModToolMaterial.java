@@ -7,7 +7,9 @@ import net.minecraft.util.Lazy;
 import java.util.function.Supplier;
 
 public enum ModToolMaterial implements ToolMaterial {
-    TROGLORAPTOR(3, 1561, 8.0f, 3.0f, 10, () -> Ingredient.ofItems(ModItems.TROGLORAPTOR_CLAW));
+    TROGLORAPTOR(3, 1561, 8.0f, 3.0f, 10, () -> Ingredient.ofItems(ModItems.TROGLORAPTOR_CLAW)),
+    SCORPION(3, 1561, 8.0f, 3.0f, 10, () -> Ingredient.ofItems(ModItems.SCORPION_WHIP)),
+    WHIPRAPTOR(3, 1561, 8.0f, 3.0f, 10, () -> Ingredient.ofItems(ModItems.WHIPRAPTOR_CLAW));
 
     private final int miningLevel;
     private final int itemDurability;

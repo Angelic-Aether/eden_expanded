@@ -86,6 +86,10 @@ public class ModItemGroups {
                         // Adds weapons to the Eden Alpha tab
                         entries.add(ModItems.TROGLORAPTOR_CLAW);
                         entries.add(ModItems.TROGLORAPTOR_SPEAR);
+                        entries.add(ModItems.SCORPION_WHIP);
+                        entries.add(ModItems.SCORPION_SCYTHE);
+                        entries.add(ModItems.WHIPRAPTOR_CLAW);
+                        entries.add(ModItems.WHIPRAPTOR_DAGGER);
                     }).build());
 
     public static void registerItemGroups() {

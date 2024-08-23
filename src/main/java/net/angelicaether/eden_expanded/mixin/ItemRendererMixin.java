@@ -20,6 +20,9 @@ public abstract class ItemRendererMixin {
         if (stack.isOf(ModItems.TROGLORAPTOR_SPEAR) && renderMode != ModelTransformationMode.GUI) {
             return ((ItemRendererAccessor) this).mccourse$getModels().getModelManager().getModel(new ModelIdentifier(EdenExpanded.MOD_ID, "trogloraptor_spear_in_hand", "inventory"));
         }
+        if (stack.isOf(ModItems.SCORPION_SCYTHE) && renderMode != ModelTransformationMode.GUI) {
+            return ((ItemRendererAccessor) this).mccourse$getModels().getModelManager().getModel(new ModelIdentifier(EdenExpanded.MOD_ID, "scorpion_scythe_in_hand", "inventory"));
+        }
         return value;
     }
 }

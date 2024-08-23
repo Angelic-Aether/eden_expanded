@@ -11,6 +11,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
+    // Registers food items
     public static final Item EDEN_MUSSEL = registerItem("eden_mussel", new Item(new FabricItemSettings()));
     public static final Item RAW_EDEN_MUSSEL = registerItem("raw_eden_mussel", new Item(new FabricItemSettings().food(ModFoodComponents.RAW_EDEN_MUSSEL)));
     public static final Item COOKED_EDEN_MUSSEL = registerItem("cooked_eden_mussel", new Item(new FabricItemSettings().food(ModFoodComponents.COOKED_EDEN_MUSSEL)));
@@ -19,10 +20,16 @@ public class ModItems {
     public static final Item RAW_ROCKBEEF = registerItem("raw_rockbeef", new Item(new FabricItemSettings().food(ModFoodComponents.RAW_ROCKBEEF)));
     public static final Item COOKED_ROCKBEEF = registerItem("cooked_rockbeef", new Item(new FabricItemSettings().food(ModFoodComponents.COOKED_ROCKBEEF)));
 
+    // Registers sign items
     public static final Item ROCKWOOD_SIGN = registerItem("rockwood_sign", new SignItem(new Item.Settings().maxCount(16), ModBlocks.ROCKWOOD_SIGN, ModBlocks.ROCKWOOD_WALL_SIGN));
 
+    // Registers weapon items
     public static final Item TROGLORAPTOR_CLAW = registerItem("trogloraptor_claw", new SwordItem(ModToolMaterial.TROGLORAPTOR, 1, -2.0f, new FabricItemSettings()));
     public static final Item TROGLORAPTOR_SPEAR = registerItem("trogloraptor_spear", new SwordItem(ModToolMaterial.TROGLORAPTOR, 6, -3.0f, new FabricItemSettings()));
+    public static final Item SCORPION_WHIP = registerItem("scorpion_whip", new SwordItem(ModToolMaterial.SCORPION, 6, -2.4f, new FabricItemSettings()));
+    public static final Item SCORPION_SCYTHE = registerItem("scorpion_scythe", new SwordItem(ModToolMaterial.SCORPION, 8, -2.8f, new FabricItemSettings()));
+    public static final Item WHIPRAPTOR_CLAW = registerItem("whipraptor_claw", new SwordItem(ModToolMaterial.WHIPRAPTOR, 4, -2.8f, new FabricItemSettings()));
+    public static final Item WHIPRAPTOR_DAGGER = registerItem("whipraptor_dagger", new SwordItem(ModToolMaterial.WHIPRAPTOR, 4, -2.2f, new FabricItemSettings()));
 
     // Adds food items to the Food and Drink tab
     private static void addItemsToFoodAndDrinkItemGroup(FabricItemGroupEntries entries) {
